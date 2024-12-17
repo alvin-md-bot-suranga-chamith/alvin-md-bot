@@ -1,12 +1,12 @@
 {
-  "name": "alvin md bot",
+  "name": "Alvin-MD",
   "version": "1.0.0",
   "description": "A WhatsApp bot created using Node.js",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name alvin md bot",
-    "stop": "pm2 stop alvin md bot",
-    "restart": "pm2 restart alvin md bot"
+    "start": "pm2 start index.js --deep-monitoring --attach --name Alvin-MD",
+    "stop": "pm2 stop Alvin-MD",
+    "restart": "pm2 restart Alvin-MD"
   },
   "dependencies": {
     "@whiskeysockets/baileys": "6.6.0",
@@ -22,6 +22,27 @@
     "node-fetch": "^2.6.1",
     "megajs": "^1.1.0",
     "vm": "^0.1.0",
-    "qrcode-terminal": "^0.12.0"
+    "qrcode-terminal": "^0.12.0",
+    "yt-search" : "2.11.1",
+    "api-dylux" : "1.8.5",
+    "yt-search":"2.11.1",
+    "api-dylux":"1.8.5",
+    "fb-downloader-new":"0.0.2",
+    "ruhend-scraper":"8.0.3",
+    "tiktok-downloaders":"1.0.5",
+    "wa-sticker-formatter": "4.4.4",
+    "g-i-s": "2.1.7",
+    "google-tts-api": "^2.0.2",
+    "moment-timezone": "^0.5.34",
+    "async-g-i-s": "^1.4.0",
+    "ytsearch-venom":"1.0.0",
+    "ytdl-core": "^4.11.5",
+    "child_process":"1.0.2",
+    "buffer":"6.0.3",
+    "cheerio":"1.0.0-rc.12",
+    "@blackamda/telegram-image-url": "1.0.0",
+    "@sl-code-lords/si-subdl" : "^1.1.1",
+    "@sl-code-lords/movie-api":"1.0.0",
+    "pixaldrain-sinhalasub": "git+https://github.com/DarkMakerofc/pixaldrain-sinhalasub.git"
   }
 }
