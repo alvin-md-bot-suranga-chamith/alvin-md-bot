@@ -201,7 +201,7 @@ command.function(conn, mek, m,{from, l, quoted, body, isCmd, command, args, q, i
 })
 }
 app.get("/", (req, res) => {
-res.send("hey I am alive, Avishka_X-MD Is started✅");
+res.send("hey I am alive, ALVIN-MD Is started✅");
 });
 app.listen(port, () => console.log(`Server listening on port http://localhost:${port}`));
 setTimeout(() => {
